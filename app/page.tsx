@@ -67,7 +67,7 @@ export default function Home() {
 
       {/* Footer Section */}
       <footer className="pt-12 flex justify-center gap-4">
-        <p className="text-sm mb-4 text-gray-500">©Marco Koenig 2025</p>
+        <p className="text-sm mb-4 text-gray-500">© Marco Koenig 2025</p>
         <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Imprint</Link>
         <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Legal Notice</Link>
       </footer>
