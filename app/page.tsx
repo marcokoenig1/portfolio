@@ -58,7 +58,7 @@ export default function Home() {
             <span className="text-sm text-center text-gray-950">anomalie</span>
           </p>
           <img src="alu_container.png" alt="alu_container" className="w-50 h-auto pb-5" />
-          <button className="bg-gray-100 text-gray-900 py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">
+          <button className="bg-gray-100 text-sm text-gray-900 py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">
               Visit anomalie
             </button>
         </div>
