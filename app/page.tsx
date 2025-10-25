@@ -64,10 +64,10 @@ export default function Home() {
       </section>
 
       {/* Footer Section */}
-      <footer className="pt-12 flex justify-center gap-4">
-        <p className="text-base mb-4 text-gray-500">© Marco Koenig 2025</p>
-        <Link href="https://www.youtube.com" className="text-base mb-4 text-gray-500" replace>Imprint</Link>
-        <Link href="https://www.youtube.com" className="text-base mb-4 text-gray-500" replace>Legal Notice</Link>
+      <footer className="w-full px-5 pt-12 flex items-center justify-between gap-3 md:px-0 md:justify-center md:gap-5">
+        <p className="text-sm mb-4 text-gray-500">© Marco Koenig 2025</p>
+        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Imprint</Link>
+        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Legal Notice</Link>
       </footer>
     </div>
   );
