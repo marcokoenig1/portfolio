@@ -1,40 +1,76 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
-            Marco König
-          </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Full Stack Developer & Software Engineer
-          </p>
-          <div className="space-y-4">
-            <p className="text-lg text-gray-700 dark:text-gray-400">
-              Welcome to my portfolio! I'm a passionate developer who loves creating
-              innovative solutions and building amazing user experiences.
-            </p>
-            <div className="flex justify-center space-x-4 mt-8">
-              <a 
-                href="https://github.com/marcokoenig1" 
-                className="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <a 
-                href="mailto:your-email@example.com" 
-                className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
-              >
-                Contact
-              </a>
-            </div>
+
+    <div className="min-h-screen flex flex-col gap-33 pt-22 pb-11">
+
+      {/* Hero Section */}
+      <section className="flex justify-center">
+        <div className="text-center flex flex-col items-center gap-12">
+
+          {/* Logo placeholder */}
+          <img src="/Placeholder_Icon.svg" alt="Logo" className="w-16 h-16 mx-auto" />
+          
+            {/* Name */}
+            <h1 className="text-3xl font-normal text-gray-900">
+              Marco Koenig<br />
+              <span className="text-3xl text-gray-500">Based in Germany</span><br />
+              <span className="text-3xl text-gray-500">M.A. Designer</span>
+            </h1>
+          
+          {/* Buttons */}
+          <div className="flex items-center justify-center space-x-4">
+            <button className="bg-gray-100 text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
+              Resume
+            </button>
+            <button className="bg-gray-100 text-gray-900 p-3 rounded-full hover:bg-gray-200 transition-colors">
+              <span className="text-lg">📷</span>
+            </button>
           </div>
         </div>
-      </main>
+      </section>
+
+      {/* Projects Sections */}
+
+      {/*anomalie*/}
+      <section className="flex flex-col">
+        
+        <div className="flex flex-col items-center justify-center gap-5">
+          <p className="text-sm mb-4 text-center text-gray-500">
+            Creative Direction<br />
+            <span className="text-sm text-center text-gray-950">anomalie</span>
+          </p>
+          <img src="alu_container.png" alt="alu_container" className="w-50 h-auto pb-5" />
+          <button className="bg-gray-100 text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
+              Visit anomalie
+            </button>
+        </div>
+
+      </section>
+
+      {/*reading*/}
+      <section className="flex flex-col">
+        
+        <div className="flex flex-col items-center justify-center gap-5">
+          <p className="text-sm mb-4 text-center text-gray-500">
+            Creative Direction<br />
+            <span className="text-sm text-center text-gray-950">anomalie</span>
+          </p>
+          <img src="alu_container.png" alt="alu_container" className="w-50 h-auto pb-5" />
+          <button className="bg-gray-100 text-gray-900 py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">
+              Visit anomalie
+            </button>
+        </div>
+
+      </section>
+
+      {/* Footer Section */}
+      <footer className="pt-12 flex justify-center gap-6">
+        <p className="text-sm mb-4 text-gray-500">©Marco Koenig 2025</p>
+        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Imprint</Link>
+        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Legal Notice</Link>
+      </footer>
     </div>
   );
 }
