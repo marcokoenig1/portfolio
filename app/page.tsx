@@ -20,8 +20,8 @@ export default function Home() {
             </h1>
           
           {/* Buttons */}
-          <div className="flex items-center justify-center space-x-4">
-            <button className="bg-gray-100 text-sm text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
+          <div className="flex items-center justify-center space-x-3">
+            <button className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
               Resume
             </button>
             <button className="bg-gray-100 text-sm text-gray-900 p-3 rounded-full hover:bg-gray-200 transition-colors">
@@ -37,12 +37,11 @@ export default function Home() {
       <section className="flex flex-col">
         
         <div className="flex flex-col items-center justify-center gap-5">
-          <p className="text-sm mb-4 text-center text-gray-500">
-            Creative Direction<br />
-            <span className="text-sm text-center text-gray-950">anomalie</span>
+          <p className="text-base mb-4 text-center text-gray-500">Creative Direction<br />
+            <span className="text-base text-center text-gray-950">anomalie</span>
           </p>
           <img src="alu_container.png" alt="alu_container" className="w-50 h-auto pb-5" />
-          <button className="bg-gray-100 text-sm text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
+          <button className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
               Visit anomalie
             </button>
         </div>
@@ -53,13 +52,12 @@ export default function Home() {
       <section className="flex flex-col">
         
         <div className="flex flex-col items-center justify-center gap-5">
-          <p className="text-sm mb-4 text-center text-gray-500">
-            Creative Direction<br />
-            <span className="text-sm text-center text-gray-950">anomalie</span>
+          <p className="text-base mb-4 text-center text-gray-500">Writing<br />
+            <span className="text-base text-center text-gray-950">Words on Play</span>
           </p>
           <img src="alu_container.png" alt="alu_container" className="w-50 h-auto pb-5" />
-          <button className="bg-gray-100 text-sm text-gray-900 py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">
-              Visit anomalie
+          <button className="bg-gray-100 text-base text-gray-900 py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">
+              Read Article
             </button>
         </div>
 
@@ -67,9 +65,9 @@ export default function Home() {
 
       {/* Footer Section */}
       <footer className="pt-12 flex justify-center gap-4">
-        <p className="text-sm mb-4 text-gray-500">© Marco Koenig 2025</p>
-        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Imprint</Link>
-        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Legal Notice</Link>
+        <p className="text-base mb-4 text-gray-500">© Marco Koenig 2025</p>
+        <Link href="https://www.youtube.com" className="text-base mb-4 text-gray-500" replace>Imprint</Link>
+        <Link href="https://www.youtube.com" className="text-base mb-4 text-gray-500" replace>Legal Notice</Link>
       </footer>
     </div>
   );
