@@ -51,7 +51,7 @@ export default function Home() {
       {/*reading*/}
       <section className="flex flex-col">
         
-        <div className="flex flex-col items-center justify-center gap-5">
+        <div className="flex flex-col items-center justify-center">
           <p className="text-base mb-4 text-center text-gray-500">Writing<br />
             <span className="text-base text-center text-gray-950">Words on Play</span>
           </p>
