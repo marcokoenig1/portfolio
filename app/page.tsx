@@ -36,11 +36,11 @@ export default function Home() {
       {/*anomalie*/}
       <section className="flex flex-col">
         
-        <div className="flex flex-col items-center justify-center gap-5">
+        <div className="flex flex-col items-center justify-center">
           <p className="text-base mb-4 text-center text-gray-500">Creative Direction<br />
             <span className="text-base text-center text-gray-950">anomalie</span>
           </p>
-          <img src="alu_container.png" alt="alu_container" className="w-50 h-auto pb-5" />
+          <img src="anomalie_cover.jpg" alt="alu_container" className="w-50 h-auto pb-5" />
           <button className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
               Visit anomalie
             </button>
@@ -55,7 +55,7 @@ export default function Home() {
           <p className="text-base mb-4 text-center text-gray-500">Writing<br />
             <span className="text-base text-center text-gray-950">Words on Play</span>
           </p>
-          <img src="alu_container.png" alt="alu_container" className="w-50 h-auto pb-5" />
+          <img src="play_cover.jpg" alt="alu_container" className="w-50 h-auto" />
           <button className="bg-gray-100 text-base text-gray-900 py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">
               Read Article
             </button>
