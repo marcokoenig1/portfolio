@@ -80,7 +80,7 @@ export default function Home() {
       </section>
 
       {/* Footer Section */}
-      <footer className="w-full px-5 pt-12 flex items-center justify-between gap-3 md:px-0 md:justify-center md:gap-5">
+      <footer className="w-full px-6 pt-12 flex items-center justify-between gap-3 md:px-0 md:justify-center md:gap-5">
         <p className="text-sm mb-4 text-gray-500">© Marco Koenig 2025</p>
         <Link href="https://marco-koenig.notion.site/Impressum-f80f469dc7f7417fa3fa1696d17e1037" target="_blank" className="text-sm mb-4 text-gray-500" replace>Imprint</Link>
         <Link href="https://marco-koenig.notion.site/Datenschutz-6e2c1f176bad4f88972b4e2b9b5badf3" target="_blank" className="text-sm mb-4 text-gray-500" replace>Legal Notice</Link>
