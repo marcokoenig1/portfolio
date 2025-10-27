@@ -22,7 +22,7 @@ export default function Home() {
           {/* Buttons */}
           <div className="flex items-center justify-center space-x-3">
             <a
-              href="resume.pdf" 
+              href="https://dx1dyynbbxrtjkjr.public.blob.vercel-storage.com/resume.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors inline-block text-center">
