@@ -32,7 +32,7 @@ export default function Home() {
               href="https://www.instagram.com/bymarcokoenig/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gray-100 text-sm text-gray-900 p-3 rounded-full hover:bg-gray-200 transition-colors inline-flex items-center justify-center">
+              className="bg-gray-100 text-sm text-gray-900 h-12 w-12 rounded-full hover:bg-gray-200 transition-colors inline-flex items-center justify-center">
               <img src="instagram_logo.png" alt="Instagram" className="w-5 h-auto" />
             </a>
           </div>
