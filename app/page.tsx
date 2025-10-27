@@ -73,7 +73,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors inline-block text-center">
-            Visit anomalie
+            Read Article
             </a>
         </div>
 
