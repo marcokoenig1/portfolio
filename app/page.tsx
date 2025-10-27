@@ -10,7 +10,7 @@ export default function Home() {
         <div className="text-center flex flex-col items-center gap-12">
 
           {/* Logo placeholder */}
-          <img src="/Placeholder_Icon.svg" alt="Logo" className="w-16 h-16 mx-auto" />
+          <img src="personal_icon.svg" alt="Logo" className="w-16 h-16 mx-auto" />
           
             {/* Name */}
             <h1 className="text-3xl font-normal text-gray-900">
@@ -21,12 +21,20 @@ export default function Home() {
           
           {/* Buttons */}
           <div className="flex items-center justify-center space-x-3">
-            <button className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
+            <a
+              href="/resume.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors inline-block text-center">
               Resume
-            </button>
-            <button className="bg-gray-100 text-sm text-gray-900 p-3 rounded-full hover:bg-gray-200 transition-colors">
-              <span className="text-sm">📷</span>
-            </button>
+            </a>
+            <a
+              href="https://www.instagram.com/bymarcokoenig/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-100 text-sm text-gray-900 p-3 rounded-full hover:bg-gray-200 transition-colors inline-flex items-center justify-center">
+              <img src="instagram_logo.png" alt="Instagram" className="w-5 h-auto" />
+            </a>
           </div>
         </div>
       </section>
@@ -37,13 +45,17 @@ export default function Home() {
       <section className="flex flex-col">
         
         <div className="flex flex-col items-center justify-center">
-          <p className="text-base mb-4 text-center text-gray-500">Creative Direction<br />
+          <p className="text-base text-center text-gray-500">Creative Direction<br />
             <span className="text-base text-center text-gray-950">anomalie</span>
           </p>
-          <img src="anomalie_cover.jpg" alt="alu_container" className="w-70 h-auto pb-5" />
-          <button className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors">
-              Visit anomalie
-            </button>
+          <img src="anomalie_cover.jpg" alt="alu_container" className="w-90 h-auto" />
+          <a
+            href="https://getanomalie.com/products/supersalt/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors inline-block text-center">
+            Visit anomalie
+            </a>
         </div>
 
       </section>
@@ -52,13 +64,17 @@ export default function Home() {
       <section className="flex flex-col">
         
         <div className="flex flex-col items-center justify-center">
-          <p className="text-base mb-4 text-center text-gray-500">Writing<br />
+          <p className="text-base text-center text-gray-500">Writing<br />
             <span className="text-base text-center text-gray-950">Words on Play</span>
           </p>
-          <img src="play_cover.jpg" alt="alu_container" className="w-70 h-auto" />
-          <button className="bg-gray-100 text-base text-gray-900 py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">
-              Read Article
-            </button>
+          <img src="play_cover.jpg" alt="alu_container" className="w-90 h-auto" />
+          <a
+            href="https://medium.com/@marcokoenig/words-on-play-daac5abf9a99" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-100 text-base text-gray-900 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors inline-block text-center">
+            Visit anomalie
+            </a>
         </div>
 
       </section>
@@ -66,8 +82,8 @@ export default function Home() {
       {/* Footer Section */}
       <footer className="w-full px-5 pt-12 flex items-center justify-between gap-3 md:px-0 md:justify-center md:gap-5">
         <p className="text-sm mb-4 text-gray-500">© Marco Koenig 2025</p>
-        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Imprint</Link>
-        <Link href="https://www.youtube.com" className="text-sm mb-4 text-gray-500" replace>Legal Notice</Link>
+        <Link href="https://marco-koenig.notion.site/Impressum-f80f469dc7f7417fa3fa1696d17e1037" target="_blank" className="text-sm mb-4 text-gray-500" replace>Imprint</Link>
+        <Link href="https://marco-koenig.notion.site/Datenschutz-6e2c1f176bad4f88972b4e2b9b5badf3" target="_blank" className="text-sm mb-4 text-gray-500" replace>Legal Notice</Link>
       </footer>
     </div>
   );
